@@ -13,6 +13,18 @@ CareerCV helps you streamline your job search by allowing you to:
 
 ---
 
+## 📜 Table of Contents
+
+- [✨ Features](#-features)
+- [🔧 Tech Stack](#-tech-stack)
+- [🎯 How to Use](#-how-to-use)
+- [🛠️ Installation (For Developers)](#%EF%B8%8F-installation-for-developers)
+- [📁 Project Structure](#-project-structure)
+- [🤝 Contributing](#-contributing)
+- [⭐ Show Your Support](#-show-your-support)
+
+---
+
 ## ✨ Features  
 
 - **One-Click Applications** – Apply to jobs quickly without the hassle of navigating multiple portals or filling out repetitive forms  
@@ -127,3 +139,4 @@ If you like the project, don’t forget to ⭐ star the repository and leave fee
 ---
 
 Made with ❤️ by TechSd
+
