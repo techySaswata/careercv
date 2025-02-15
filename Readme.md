@@ -96,15 +96,13 @@ careerCV-jobtracker/
 │
 ├── server.js                  --> Backend Express server (handles API routes, connects to MongoDB)
 ├── package.json               --> Node.js dependencies & scripts
-├── client/                    --> React frontend
+├── public/                    -->frontend
 │   ├── src/
 │   │   ├── components/        --> Reusable UI pieces (forms, lists, cards)
 │   │   ├── pages/             --> Main screens (Dashboard, Login, Profile)
-│   │   ├── App.js             --> Main router - decides which page to show
+│   │   ├── login.js             --> Main router - decides which page to show
 │   │   └── index.js           --> React entry point that renders the app
 │
-├── Dockerfile                 --> Instructions for Docker container
-├── docker-compose.yml         --> Orchestrates multiple containers (Node server + MongoDB)
 ├── config/                    --> Configuration central
 │   ├── db.js                  --> MongoDB connection logic
 │   └── passport.js            --> Authentication strategies using Passport.js
@@ -115,10 +113,10 @@ careerCV-jobtracker/
 │
 ├── routes/                    --> All API endpoints
 │   ├── auth.js                --> Handles login/registration routes
-│   └── jobs.js                --> CRUD operations for job applications
+│   └── jobListings.js                --> CRUD operations for job applications
 │
 ├── utils/                     --> Helper functions
-│   └── resumeParser.js        --> Parses PDF resumes to extract skills/experience (if implemented)
+│   └── StatusApp.js        --> Parses PDF resumes to extract skills/experience (if implemented)
 │
 ├── .env.example               --> Template for environment variables
 └── .gitignore                 --> Ignores unnecessary files in Git
