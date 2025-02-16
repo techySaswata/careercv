@@ -44,8 +44,8 @@ CareerCV helps you streamline your job search by allowing you to:
 
 ## 🔧 Tech Stack  
 
-- **Frontend**: React.js, Material-UI, Axios  
-- **Backend**: Node.js, Express.js, MongoDB, Passport.js (for authentication)  
+- **Frontend**: HTML, CSS, Vanilla JS, Material-UI, Axios  
+- **Backend**: Node.js, MongoDB, Passport.js (for authentication)  
 - **Authentication**: Firebase Authentication & JWT  
 - **Deployment**: [Vercel](https://careercv.vercel.app), Docker  
 
@@ -68,8 +68,8 @@ To run the project locally:
 
 ### Clone the repository  
 ```bash
-git clone https://github.com/techSaswata/careerCV-jobtracker.git
-cd careerCV-jobtracker
+git clone https://github.com/techySaswata/careercv.git
+cd careercv
 ```
 
 ### Backend Setup  
